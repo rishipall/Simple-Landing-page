@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(220, 217, 217);
+    margin-bottom: -15px;
+    padding: 3px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 16px;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #ececec;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    border-bottom: 1px dashed rgb(204, 200, 200);
+    
+}
+
+.sidebar ul li a {
+    color: #333;
+    font-weight: bold;
+   
+    
+}
+
+/* Content Section */
+.content {
+    width: 80%;
+    padding: 20px;
+    background: white;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.image-gallery img {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Featured Coffees */
+.featured-coffees {
+    list-style-type: none;
+    padding: 0;
+}
+
+.featured-coffees li {
+    padding: 10px;
+    margin: 5px 0;
+    
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    <img src="https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-143832000000000000/restaurant_list_image_1707759110.png" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEF_d_ufOU2Scl6OQNGe_hl4WIdq6c90YjsHx9dGLhYs-ARKMV0voCyFb169bayVT7S50&usqp=CAU" alt="">
+    <img src="https://c.ndtvimg.com/2024-04/3tocbh3g_finest-coffees-in-the-world_625x300_25_April_24.jpg" alt="">
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(87, 85, 85);
+    margin: auto;
+    color: white;
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+   }
+   .main{
+    position: absolute;
+    right: 0;
+    margin-right: 0.5%;
+   }
+   .img{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   }
+
+aside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 220%;
+}
+
+footer{
+    width:100% ;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    background-color: rgb(87, 85, 85) ;
+
+} */
